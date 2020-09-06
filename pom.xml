@@ -15,7 +15,7 @@
 	<description>Demo project for DVSA Cancellation with Selenium</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 		<testcontainers.version>1.14.3</testcontainers.version>
 	</properties>
 
