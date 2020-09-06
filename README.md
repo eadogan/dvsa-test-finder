@@ -52,7 +52,7 @@ java -jar target/dvsa-test-finder-0.0.1-SNAPSHOT.jar
 
 The endpoint of the application as given in the following table.
 
-1) Register for Available Test List
+ Register for Available Test List
 
 |End Point                      | Operation    |Port  |
 |-------------------------------|--------------|------|
@@ -72,7 +72,7 @@ The endpoint of the application as given in the following table.
 
 
 Scheduler Cron Job :
-    - 0 */5 * ? * * -> run every 5 minutes
+    -  0 */5 * ? * *    ->      run every 5 minutes
 
 * Sample List of Test Centers
 ```json
