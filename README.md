@@ -63,9 +63,9 @@ The endpoint of the application as given in the following table.
 ```json
 
 {
-   ExamDate = "Thursday 15 October 2020 9:19am",
-   LicenceNumber = "M............X",
-   ReferenceNumber = "4....0"
+   "ExamDate" = "Thursday 15 October 2020 9:19am",
+   "LicenceNumber" = "M............X",
+   "ReferenceNumber" = "4....0"
 }
 
 ```
@@ -78,9 +78,9 @@ Scheduler Cron Job :
 ```json
 
 [
-    Barnet,
-    Chinford,
-    Wood Green
+    "Barnet",
+    "Chinford",
+    "Wood Green"
 ]
 ```
 * Sample Test Finder Response
