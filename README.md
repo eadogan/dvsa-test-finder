@@ -63,9 +63,9 @@ The endpoint of the application as given in the following table.
 ```json
 
 {
-   "ExamDate" = "Thursday 15 October 2020 9:19am",
-   "LicenceNumber" = "M............X",
-   "ReferenceNumber" = "4....0"
+   "ExamDate" : "Thursday 15 October 2020 9:19am",
+   "LicenceNumber" : "M............X",
+   "ReferenceNumber" : "4....0"
 }
 
 ```
@@ -89,17 +89,17 @@ Scheduler Cron Job :
 
 [
     [
-        Wednesday 14 October 2020 9:19am,
-        Tuesday 20 October 2020 3:36pm
+        "Wednesday 14 October 2020 9:19am",
+        "Tuesday 20 October 2020 3:36pm"
     ],
     [
-        Wednesday 14 October 2020 3:19pm,
-        Tuesday 27 October 2020 3:36pm,
-        Monday 14 November 2020 9:19am,
-        Tuesday 22 November 2020 1:16pm
+        "Wednesday 14 October 2020 3:19pm",
+        "Tuesday 27 October 2020 3:36pm",
+        "Monday 14 November 2020 9:19am",
+        "Tuesday 22 November 2020 1:16pm"
     ],
     [
-        No More Available Test Date at Wood Green Test Center
+        "No More Available Test Date at Wood Green Test Center"
     ]
 ]
 ```
