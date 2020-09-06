@@ -9,10 +9,11 @@ Following tech spec is used for the TDD based implementation.
 - *Java*
 - *Spring Boot*
 - *maven*
-- *JUnit*
 - *selenium*
+- *JUnit*
 
-The project is organized as a *maven* project and in order to compile, test and create a package *maven* is used.
+
+The project is organized as a *maven* project and in order to compile","test and create a package *maven* is used.
 
 ### Building the application
 
@@ -71,8 +72,11 @@ The endpoint of the application as given in the following table.
 ```
 
 
-Scheduler Cron Job :
-    -  0 */5 * ? * *    ->      run every 5 minutes
+* Scheduler - Cron Job :
+```json
+
+    0 */5 * ? * *    ->      run every 5 minutes
+```
 
 * Sample List of Test Centers
 ```json
@@ -93,10 +97,22 @@ Scheduler Cron Job :
         "Tuesday 20 October 2020 3:36pm"
     ],
     [
-        "Wednesday 14 October 2020 3:19pm",
-        "Tuesday 27 October 2020 3:36pm",
-        "Monday 14 November 2020 9:19am",
-        "Tuesday 22 November 2020 1:16pm"
+        "Wednesday 9 September 2020 10:19am",
+        "Wednesday 9 September 2020 1:56pm",
+        "Thursday 10 September 2020 11:48am",
+        "Friday 11 September 2020 9:19am",
+        "Wednesday 16 September 2020 1:37pm",
+        "Thursday 17 September 2020 11:28am",
+        "Thursday 17 September 2020 2:56pm",
+        "Thursday 17 September 2020 3:15pm",
+        "Friday 18 September 2020 8:00am",
+        "Friday 18 September 2020 2:36pm",
+        "Monday 21 September 2020 9:00am",
+        "Wednesday 23 September 2020 9:00am",
+        "Wednesday 23 September 2020 1:37pm",
+        "Monday 28 September 2020 7:41am",
+        "Thursday 1 October 2020 11:48am",
+        "Monday 5 October 2020 8:00am"
     ],
     [
         "No More Available Test Date at Wood Green Test Center"
